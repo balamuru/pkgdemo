@@ -42,6 +42,6 @@ go run driver.go
 go mod edit -replace example.com/greetings=../greetings
 ```
 
-## Reference
+## References
 * https://go.dev/doc/tutorial/create-module
 * https://go.dev/doc/tutorial/call-module-code
