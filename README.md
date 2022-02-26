@@ -37,9 +37,8 @@ go mod tidy
 ```
 
 ## Run the `driver` program (thereby invoking the `greetings` module)
-go run driver.go
 ```
-go mod edit -replace example.com/greetings=../greetings
+go run driver.go
 ```
 
 ## References
