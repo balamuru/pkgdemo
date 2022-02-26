@@ -36,7 +36,7 @@ go mod edit -replace github.com/balamuru/pkgdemo/greetings=../greetings //replac
 go mod tidy
 ```
 
-## Run the driver (thereby invoking the greetings module)
+## Run the `driver` program (thereby invoking the `greetings` module)
 go run driver.go
 ```
 go mod edit -replace example.com/greetings=../greetings
